@@ -26,7 +26,7 @@
     <p>To begin, I had to try guessing which number corresponded to which letter. The English language has few one letter and two letter words that are commonly used. For example, there are two one letter words, "a" and "I". There are a few two letter words: "of", "to", "is", "so", etc.
     Then, after bringing in all the messages into a Python script, I started to guess a few of the words and continually checked to see if other words appeared. I needed to know the frequency of the two-digit numbers. A few lines of Python code helped complile the messages and display the wanted frequencies...</p>
 
-    <pre><code>import copy
+    <pre><code>&nbsp;import copy
 
     #Take away the spaces and newlines
     message1 = "42325371 6132 \
@@ -52,7 +52,7 @@
     #Compile
     rawMessages = [message1, message2, message3, message4, message5, message6, message7, message8]</code></pre>
 
-    <pre><code>#Creation of dictionaries of specific 2-combinations
+    <pre><code>&nbsp;#Creation of dictionaries of specific 2-combinations
     dict2Combo = {}
     for message in rawMessages:
     &nbsp;&nbsp;&nbsp;&nbsp;for i in range(0, len(message), 2):
